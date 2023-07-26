@@ -59,3 +59,23 @@ const mostFrequentElement = mostFrequent(array);
 console.log(mostFrequentElement);
 */
 
+/*
+// Task 4: Create a function that takes a sorted array of numbers and a target value as input. The function should find two numbers in the array that add up to the target value. Return an array containing the indices of the two numbers.
+
+function findTheTarget(arr, target){
+    let len = arr.length;
+    for(let i = 0; i < len - 1; i++){
+        for(let j = i+1; j < len; j++){
+            if(arr[i] + arr[j] === target){
+                return [i, j];
+            }
+        }
+    }
+
+    return 1;
+}
+
+const arr = [1, 3, 6, 8, 11, 15];
+console.log(findTheTarget(arr, 9));
+*/
+
