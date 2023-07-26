@@ -79,3 +79,27 @@ const arr = [1, 3, 6, 8, 11, 15];
 console.log(findTheTarget(arr, 9));
 */
 
+/*
+// Task 5: Implement a simple JavaScript calculator. The calculator should take two numbers and an operator (+, -, *, /) as input and return the result of the operation.
+function calculate(number1, number2, operator) {
+  switch (operator) {
+    case "+":
+      return number1 + number2;
+    case "-":
+      return number1 - number2;
+    case "*":
+      return number1 * number2;
+    case "/":
+      return number1 / number2;
+    default:
+      throw new Error("Invalid operator: " + operator);
+  }
+}
+
+const add = calculate(10, 2, "+");
+const subtraction = calculate(10, 2, "-");
+const multiplier = calculate(10, 2, "*");
+const divide = calculate(10, 2, "/");
+console.log(add, subtraction, multiplier, divide);
+*/
+
