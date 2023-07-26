@@ -127,3 +127,16 @@ const randomPassword = generateRandomPassword(passwordLength);
 console.log(randomPassword);
 */
 
+
+/*
+// Task 8: Implement a JavaScript function to find the second smallest element in an array of numbers. The function should return the second smallest number.
+function findSecondSmallest(arr) {
+  const sorted = arr.sort((a, b) => a - b);
+  return sorted[1];
+}
+
+const arr = [10, 5, 2, 7, 3, 1];
+const secondSmallest = findSecondSmallest(arr);
+console.log(secondSmallest);
+*/
+
